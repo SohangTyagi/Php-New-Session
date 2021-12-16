@@ -46,7 +46,7 @@ Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/7.4.20 Server at localhost Port 80
     [SERVER_SOFTWARE] => Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/7.4.20
     [SERVER_NAME] => localhost
     [SERVER_ADDR] => ::1
-    [SERVER_PORT] => 80
+    [SERVER_PORT]  => 80
     [REMOTE_ADDR] => ::1
     [DOCUMENT_ROOT] => D:/xampp1/htdocs
     [REQUEST_SCHEME] => http
