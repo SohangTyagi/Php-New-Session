@@ -7,5 +7,5 @@ Block2
 
 
 ?> 
-<h1>Tyagi: <?php//echo"hello"; ?>Single Line Comment</h1> //Output H1
+<h1>Tyagi: <?php//echo"hello"; ?>Single Line Comment</h1> //Output H14
 <h1>Tyagi: <?php /*echo"hello";*/ ?>Single Line Comment</h1>
