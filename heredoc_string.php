@@ -6,7 +6,8 @@ $friend = "Sprash";
 $talking = <<<tyagi
             $he,said: 'My Core is Better Then you.'
             $friend,"Not Agreed with. $he
-            tyagi;
+    tyagi;
+    
 
 
 //In the heredoc we can use the identifier thats why we can use the single or double quotes in the string 
