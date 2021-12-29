@@ -7,5 +7,4 @@ $a[4.7] = "tyagi";
 
 echo"<pre>";
 print_r($a);
-
 ?>
