@@ -14,7 +14,6 @@
         Number : <input type="text" name="number" placeholder="Enter the Number" required>
         <button type="btn btn-submit" name="save">View Result</button>
 </body>
-
 </html>
 
 
