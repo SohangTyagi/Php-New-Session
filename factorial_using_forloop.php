@@ -18,13 +18,13 @@
 
 
 <?php
-$fact = 1;
+
 if(isset($_POST['save'])) {
     $number = $_POST['number'];
-    for($x = $number ; $x>=1; $x--) {
-        $fact = $fact * $x;
+    for($fact = 1; $number>=1; $number--) {
+        $fact = $fact * $number;
     }
     echo"<br>";
-echo("The factorial of $number is : ". $fact);
+echo("The factorial of " . $_POST['number']. " is : ". $fact);
 }
 ?>

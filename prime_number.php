@@ -19,19 +19,19 @@
 
 
 <?php
-if(isset($_POST['save'])) {
-    $number = $_POST['number'];  
-    for ($i = 2; $i <= $number-1; $i++) {  
-      if ($number % $i == 0) {  
-      $value= True;  
-      }  
-}  
-if (isset($value) && $value) {  
-    echo"<br>";
-     echo 'The Number '. $number . ' is not prime';  
-}  else { 
-    echo"<br>"; 
-   echo 'The Number '. $number . ' is prime';  
-   }   
-}  
-?>  
+if (isset($_POST['save'])) {
+    $number = $_POST['number'];
+    for ($i = 2; $i <= $number - 1; $i++) {
+        if ($number % $i == 0) {
+            $value = True;
+        }
+    }
+    if (isset($value) && $value) {
+        echo "<br>";
+        echo 'The Number ' . $number . ' is not prime';
+    } else {
+        echo "<br>";
+        echo 'The Number ' . $number . ' is prime';
+    }
+}
+?>
