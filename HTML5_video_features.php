@@ -7,11 +7,11 @@
     <title>Video</title>
 </head>
 <body>
-    <video width="70%" height="70%" controls>
-        <source src="path_of_the_songs" type="video/mp4">
+    <video width="60%" height="60%" controls>
+        <source src="#" type="video/mp4">
     </video>
     <audio  width="70%" height="70%" controls>
-        <source src="path_of_the_songs" type="audio/ogg">
+        <source src="#" type="audio/ogg">
     </audio>
 </body>
 </html>
