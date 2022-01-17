@@ -25,6 +25,6 @@ if(isset($_POST['save'])) {
         $fact = $fact * $number;
     }
     echo"<br>";
-echo("The factorial of " . $_POST['number']. " is : ". $fact);
+    echo("The factorial of " . $_POST['number']. " is : ". $fact);
 }
 ?>
